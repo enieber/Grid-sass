@@ -1,9 +1,115 @@
 @import "../bower_components/susy/sass/susy";
+body{
+	margin: 0;
+	padding: 0;
+}
+@mixin clearfix {
+	&:after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+}
 
-$susy: (
-    columns: 2 5 1 4,
-    container: 1200px,
-    gutters: 1/4,
-    global-box-sizing: border-box,
-    debug: (image: hide)
-);
+$susy: (columns: 16, container: 1140px, global-box-sizing: border-box, debug: (image: show));
+
+@include border-box-sizing;
+
+.wrap {
+	@include container();
+}
+.content {
+  @include span(12 of 16);
+}
+
+.sidebar {
+  @include span(4 of 16 last);
+}
+
+.content {
+	margin-top: 5vh;
+	padding-bottom: 1rem;
+	background: rgba(113, 218, 210, 0.8);
+} 
+
+.sidebar {
+	margin-top: 5vh;
+	padding-bottom: 1rem;
+}
+
+h1, h2 {
+	padding: 1rem 0;
+	text-align: center;
+	color: #555;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+} 
+
+li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+} 
+.site-header,.site-footer {
+	background: rgba(234, 159, 195, 0.8);
+} 
+
+.site-header {
+	a {
+	color: #555;
+	text-decoration: none;
+	}
+}
+
+.sidebar a {
+	color: #666;
+	padding-left: 1rem;
+	line-height: 2;
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+	line-height: 2rem;
+	font-size: 1.5rem;
+} 
+nav {
+	float: right;
+	li {
+		list-style: none;
+		float: left;
+		margin-left: 1em;
+		line-height: 2rem;
+	}
+}
+.gallery {
+	@include clearfix;
+	/*width: span(10 of 12);
+	margin-left: auto;
+	margin-right: auto;*/
+	padding: 0 span(1 wide of 12);
+}
+.gallery__item {
+	@include span( 2 of 10 );
+	margin-bottom: gutter(10);
+	&:nth-child(5n) {
+		@include last;
+	}
+}
+.site-footer {
+margin-top: 5vh;
+}
+
+.widget {
+	@include gallery( 4 of 16 );
+	background: rgba(240, 150, 113, 0.8);	
+	&:nth-child(4n) {
+		@include last;
+	}
+}

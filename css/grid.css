@@ -1,3 +1,189 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\000032}}
+body {
+  margin: 0;
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/language\/susy\/_box-sizing\.scss}line{font-family:\0000321}}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000318}}
+.wrap {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 6.32911%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+.wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000321}}
+.content {
+  width: 74.68354%;
+  float: left;
+  margin-right: 1.26582%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000325}}
+.sidebar {
+  width: 24.05063%;
+  float: right;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000329}}
+.content {
+  margin-top: 5vh;
+  padding-bottom: 1rem;
+  background: rgba(113, 218, 210, 0.8);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000335}}
+.sidebar {
+  margin-top: 5vh;
+  padding-bottom: 1rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000340}}
+h1, h2 {
+  padding: 1rem 0;
+  text-align: center;
+  color: #555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000346}}
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000351}}
+li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000355}}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000359}}
+.site-header, .site-footer {
+  background: rgba(234, 159, 195, 0.8);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000364}}
+.site-header a {
+  color: #555;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000370}}
+.sidebar a {
+  color: #666;
+  padding-left: 1rem;
+  line-height: 2;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000377}}
+.logo {
+  float: left;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000382}}
+nav {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000384}}
+nav li {
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+  line-height: 2rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000391}}
+.gallery {
+  /*width: span(10 of 12);
+  margin-left: auto;
+  margin-right: auto;*/
+  padding: 0 8.47458%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\000037}}
+.gallery:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\0000398}}
+.gallery__item {
+  width: 18.36735%;
+  float: left;
+  margin-right: 2.04082%;
+  margin-bottom: 2.04082%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\00003101}}
+.gallery__item:nth-child(5n) {
+  float: right;
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\00003105}}
+.site-footer {
+  margin-top: 5vh;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\00003109}}
+.widget {
+  width: 24.05063%;
+  float: left;
+  background: rgba(240, 150, 113, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+.widget:nth-child(4n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+.widget:nth-child(4n + 2) {
+  margin-left: 25.31646%;
+  margin-right: -100%;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+.widget:nth-child(4n + 3) {
+  margin-left: 50.63291%;
+  margin-right: -100%;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+.widget:nth-child(4n + 4) {
+  margin-left: 75.94937%;
+  margin-right: -100%;
+  clear: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/ENIEBER\/Documents\/Enieber\/github\/Grid\/sass\/grid\.scss}line{font-family:\00003112}}
+.widget:nth-child(4n) {
+  float: right;
+  margin-right: 0;
+}
 
 /*# sourceMappingURL=grid.css.map */
